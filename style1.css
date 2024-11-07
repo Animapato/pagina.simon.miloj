@@ -1,0 +1,128 @@
+/* Estilo general para el cuerpo de la página */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, hsl(174, 95%, 26%), #123da2);
+    color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Estilo para los títulos */
+h1, h3 {
+    color: #ff6b6b;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Estilo específico para el primer título */
+h1.t1 {
+    margin-top: 0;
+}
+
+/* Contenedor general */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px 0;
+}
+
+/* Estilo para los párrafos informativos */
+.info, .biog {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para la galería de álbumes */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Estilo individual para cada álbum */
+.album {
+    background: #444;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Estilo para las imágenes de los álbumes */
+.album img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #666;
+}
+
+/* Estilo para la descripción de cada álbum */
+.description {
+    padding: 10px;
+}
+
+.description h3 {
+    margin: 10px 0;
+    color: #ff6b6b;
+}
+
+.description p {
+    color: #dcdcdc;
+    font-size: 14px;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #ff6b6b;
+    text-decoration: none;
+    margin: 0 5px;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Ajustes adicionales para una mejor estética */
+.info {
+    font-size: 16px;
+}
+
+
+/* Red de enlaces de redes sociales */
+.redes {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.redes a {
+    margin: 10px 15px;
+    
+}
+p{ font-family: 'Courier New', Courier, monospace;
+color: rgb(255, 255, 255);
+ text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+}
+li {
+    font-family: 'Courier New', Courier, monospace;
+color: rgb(255, 255, 255);
+ text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+
+}
+h2{
+    color: #00fff2;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);  
+
+}
